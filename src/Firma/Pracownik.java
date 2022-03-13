@@ -11,6 +11,7 @@ class Pracownik {
     String position;
     int salary;
     String address;
+    public int ID;
 
     public Pracownik(){
 

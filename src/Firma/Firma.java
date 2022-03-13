@@ -54,6 +54,9 @@ class Firma {
                     address = sc.next();
                     Pracownik pracownik_1 = new Pracownik(name, surname, age, position, salary, address);
                     emps.add(pracownik_1.toString());
+
+                    emps.add(new Pracownik());
+                    emps.get().
                     break;
                 case "v":
                     for (String i : emps) {
@@ -73,7 +76,7 @@ class Firma {
                         employee_ID = sc.nextInt();
                         System.out.print("Please input new salary: ");
                         int raise = sc.nextInt();
-                        emps.set()
+                        //emps.set(0, raise);
                     } else {
                         System.out.println("Access error!");
                     }
